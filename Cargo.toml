@@ -8,7 +8,7 @@ license = "MIT"  # You can choose a different license if preferred
 repository = "https://github.com/rishikanthc/markopolis-cli"  # Replace with your repo URL
 homepage = "https://markopolis.app"  # Optional: if you have a project website
 keywords = ["markdown", "notes", "markopolis"]  # Add relevant keywords
-categories = ["command-line interface", "command line utilities"]  # Use https://crates.io/categories for valid options
+categories = ["command-line-interface", "command-line-utilities"]  # Use https://crates.io/categories for valid options
 readme = "README.md"  # If you have a README.md file
 
 [dependencies]
