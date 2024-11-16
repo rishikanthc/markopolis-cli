@@ -1,0 +1,24 @@
+[package]
+name = "markopolis"
+version = "0.1.0"
+edition = "2021"
+authors = ["Rishikanth Chandrasekaran rishikanthc@gmail.com>"]
+description = "CLI tool for Markopolis"
+license = "MIT"  # You can choose a different license if preferred
+repository = "https://github.com/rishikanthc/markopolis-cli"  # Replace with your repo URL
+homepage = "https://markopolis.app"  # Optional: if you have a project website
+keywords = ["markdown", "notes", "markopolis"]  # Add relevant keywords
+categories = ["command-line interface", "command line utilities"]  # Use https://crates.io/categories for valid options
+readme = "README.md"  # If you have a README.md file
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.0", features = ["derive"] }
+dirs = "5.0"
+ignore = "0.4"
+reqwest = { version = "0.11", features = ["json", "multipart"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+serde_yaml = "0.9"  # Add this for YAML serialization/deserialization
+num_cpus = "1.15"   # Add this for CPU count functionality
+tokio = { version = "1.0", features = ["full"] }
